@@ -138,8 +138,8 @@
   #size,
   #color,
   #quantity {
-    height: 2rem;
-    width: 6rem;
+    height: 2.5rem;
+    width: 7rem;
   }
 
   .p-detial4 {
@@ -191,6 +191,88 @@
   color: #34f85f;
   margin: 1rem 0;
 }
+.p-faqs {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin: 1rem 8rem;
+}
+
+.p-faq {
+  background-color: #34f85f;
+  color: #fff;
+  justify-content: center;
+  padding: 0.9rem;
+}
+
+
+/* Style for question */
+
+.p {
+  display: flex;
+  justify-content: space-between;
+}
+.arrow {
+  width: 70%;
+}
+
+
+
+/* Add styles for visual appearance */
+.p-faq-question,
+.p-faq-question1,
+.p-faq-question2,
+.p-faq-question3 {
+  margin-bottom: 5px;
+  color: #ffffff;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.p-faq-answer,
+.p-faq-answer1,
+.p-faq-answer2,
+.p-faq-answer3 {
+  color: #494949;
+  font-weight: 400;
+}
+
+.faq-toggle,
+.faq-toggle1,
+.faq-toggle2,
+.faq-toggle3 {
+  display: none;
+}
+
+.arrow-label,
+.arrow-label1,
+.arrow-label2,
+.arrow-label3 {
+  cursor: pointer;
+}
+
+.faq-toggle:checked + .p .arrow-label .arrow,
+.faq-toggle1:checked + .p .arrow-label1 .arrow,
+.faq-toggle2:checked + .p .arrow-label2 .arrow,
+.faq-toggle3:checked + .p .arrow-label3 .arrow {
+  transform: rotate(180deg);
+}
+
+.faq-toggle:checked ~ .p-faq-answer,
+.faq-toggle1:checked ~ .p-faq-answer1,
+.faq-toggle2:checked ~ .p-faq-answer2,
+.faq-toggle3:checked ~ .p-faq-answer3 {
+  display: block;
+}
+
+.p-faq-answer,
+.p-faq-answer1,
+.p-faq-answer2,
+.p-faq-answer3 {
+  display: none;
+}
+
+
   /* Responsive styles */
   @media screen and (max-width: 768px) {
     .product {
