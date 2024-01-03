@@ -182,6 +182,7 @@
 
 .load-btn {
   max-width: 100%;
+    width: 51vw;
     padding: 0.6rem 6rem;
     margin: 1rem 0;
     background-color: #34f85f;
@@ -190,7 +191,6 @@
     font-size: medium;
     font-weight: bold;
     border-radius: 4px;
-    width: 51vw;
 }
 .wishlist {
   background-color: #fff;
