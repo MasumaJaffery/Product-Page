@@ -136,6 +136,14 @@
     gap: 1rem;
   }
 
+  .opacity {
+   opacity: 60%;
+  }
+
+  .opacity:hover {
+    opacity: 100%;
+  }
+
   #size,
   #color,
   #quantity {
