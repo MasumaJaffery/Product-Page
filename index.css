@@ -514,13 +514,10 @@ ul li {
 
 /* For mobile devices up to 768px */
 @media only screen and (max-width: 768px) {
-  * {
-      margin: 0rem 1rem;
-  }
   .product {
     display: flex;
     gap: 1rem;
-    margin: 1rem;
+    margin: 0 1rem;
   }
 
   .p-image {
@@ -609,13 +606,13 @@ ul li {
   .product-reviews {
     display: flex;
     flex-direction: column;
-    margin: 0;
+    margin: 0 1rem;
   }
 .related-products {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin: 0;
+  margin: 0 1rem;
 }
   .related-products {
     display: block; 
