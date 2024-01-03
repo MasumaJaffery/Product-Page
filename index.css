@@ -514,6 +514,9 @@ ul li {
 
 /* For mobile devices up to 768px */
 @media only screen and (max-width: 768px) {
+  * {
+      margin: 0rem 1rem;
+  }
   .product {
     display: flex;
     gap: 1rem;
@@ -532,7 +535,7 @@ ul li {
   }
 
   .p-images img {
-    max-width: fit-content;
+    max-width: -webkit-fill-available;
     height: auto;
   }
 
