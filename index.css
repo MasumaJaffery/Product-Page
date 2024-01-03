@@ -187,7 +187,6 @@
     background-color: #34f85f;
     color: white;
     border: none;
-    width: 51vw;
     font-size: medium;
     font-weight: bold;
     border-radius: 4px;
@@ -532,9 +531,14 @@ ul li {
   }
 
   .p-images img {
-    max-width: 80px;
+    max-width: fit-content;
     height: auto;
   }
+
+  .sub-img img {
+    max-width: 24%;
+    cursor: pointer;
+}
 
   .p-detials {
     order: 1; /* Place details section on top for mobile */
@@ -607,6 +611,7 @@ ul li {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin: 0;
 }
   .related-products {
     display: block; 
@@ -617,6 +622,14 @@ ul li {
   }
 .p-icon {
   height: fit-content;
+}
+
+.product-cards {
+  display: grid;
+}
+
+.p-adjust {
+  display: grid;
 }
 }
 
