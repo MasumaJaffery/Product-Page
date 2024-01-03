@@ -190,6 +190,7 @@
     font-size: medium;
     font-weight: bold;
     border-radius: 4px;
+    width: 51vw;
 }
 .wishlist {
   background-color: #fff;
@@ -630,6 +631,19 @@ ul li {
 
 .p-adjust {
   display: grid;
+}
+
+.load-btn {
+  max-width: 100%;
+    padding: 0.6rem 6rem;
+    margin: 1rem 0;
+    background-color: #34f85f;
+    color: white;
+    border: none;
+    font-size: medium;
+    font-weight: bold;
+    border-radius: 4px;
+    width: max-content;
 }
 }
 
